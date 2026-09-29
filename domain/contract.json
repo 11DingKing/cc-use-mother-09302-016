@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "product": "传统技艺师徒计划",
+  "source_context": "http://edu.people.com.cn/n1/2026/0924/c1006-40804947.html",
+  "actors": [
+    "传承人导师",
+    "学生",
+    "项目管理员"
+  ],
+  "states": [
+    "申请",
+    "录取",
+    "学习",
+    "评定",
+    "结业"
+  ],
+  "invariants": [
+    "导师容量",
+    "阶段目标",
+    "转导师",
+    "监护授权"
+  ],
+  "sample_cases": [
+    {
+      "case_id": "09302-016-A",
+      "actor": "传承人导师",
+      "state": "申请"
+    },
+    {
+      "case_id": "09302-016-B",
+      "actor": "项目管理员",
+      "state": "录取"
+    }
+  ],
+  "tags": [
+    "apprenticeship",
+    "mentor-capacity"
+  ]
+}

@@ -1,0 +1,6 @@
+[project]
+name = "domain-contract-09302-016"
+version = "0.1.0"
+description = "传统技艺师徒计划的领域约定与校验工具"
+requires-python = ">=3.11"
+dependencies = []
