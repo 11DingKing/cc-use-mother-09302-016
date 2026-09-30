@@ -1,6 +1,12 @@
 [project]
 name = "domain-contract-09302-016"
-version = "0.1.0"
-description = "传统技艺师徒计划的领域约定与校验工具"
+version = "0.2.0"
+description = "传统技艺师徒计划的领域约定、校验工具与后端服务"
 requires-python = ">=3.11"
 dependencies = []
+
+[project.scripts]
+apprenticeship = "apprenticeship.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

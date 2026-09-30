@@ -4,5 +4,10 @@ __pycache__/
 .venv/
 .env
 *.sqlite3
+*.db
+*.db-wal
+*.db-shm
+data/
+.smoke/
 dist/
 build/
